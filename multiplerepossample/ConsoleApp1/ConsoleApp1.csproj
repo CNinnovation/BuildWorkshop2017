@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\powercampwindows10\clientandserver\BooksSample\BooksLib\BooksLib.csproj" />
+    <ProjectReference Include="..\..\..\powercampwindows10\clientandserver\BooksSample\TheBestMVVMFrameworkInTown\TheBestMVVMFrameworkInTown.csproj" />
+  </ItemGroup>
+
+</Project>
